@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4Event</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
+  crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bodycss">
+  <div class="container ">
+    <div class="row">
+      <div class="col">
+      <!--Navbar-->
+        <nav class="py-2  border-bottom">
+          <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+            <li class="nav-item"><a href="#home" class="nav-link link-dark px-2 active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#sobre" class="nav-link link-dark px-2">Sobre</a></li>
+            <li class="nav-item"><a href="#diferenciais" class="nav-link link-dark px-2">Diferenciais</a></li>
+            <li class="nav-item"><a href="#evento" class="nav-link link-dark px-2">Eventos</a></li>
+            <li class="nav-item"><a href="#contato" class="nav-link link-dark px-2">Contato</a></li>
+
+            </ul>
+            <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Entrar</a></li>
+              <li class="nav-item"><a href="#call" class="nav-link link-dark px-2">Cadastre-se</a></li>
+            </ul>
+          </div>
+        </nav>
+        <header class="py-3 mb-4 border-bottom">
+          <div class="container d-flex flex-wrap justify-content-center">
+            <a href="#" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+              <img src="./img/Logo 4event2.png" class="bi me-2 shadow-lg" width="40" height="32" alt="" onclick="openmessage()">
+              <span class="fs-2 fw-bold " onclick="openmessage()">Bem Vindo à 4 Event</span>
+            </a>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0">
+              <input type="search" class="form-control" placeholder="Procure seu evento..." aria-label="Search">
+            </form>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <!--HERO/BANNER-->
+
+    <div class="row" id="home">
+      <div class="col">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" carrousel-control-width="50%"  data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="./img/pexels-belle-co-1000445.jpg" class="d-block w-100 img-fluid" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="text-light fw-bold ">4 Event</h1>
+                <p> <h2 class="text-light">Faça Bons Negócios</h2></p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./img/pexels-trần-long-4689716.jpg" class="d-block w-100 img-fluid" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="text-light fw-bold">4 Event</h1>
+                <p ><h2 class="text-light">Deixe que o resto cuidamos para você</h2></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--DESCUBRA A 4 EVENT-->
+
+    <div class="row  " id="sobre">
+      <div class="col mt-5 p-3 ">
+        <h2 class="fw-bold mt-5 p-3">Descubra a 4Event</h2>
+        <p class=>
+          4Event é um sistema que auxilia empreendedores do ramo de eventos <br>
+          na organização de demandas junto a clientes. <br>
+          <ul>
+            <li>Espaço de festa</li>
+            <li>Decoradores</li>
+            <li>Fotografia e Filmagem</li>
+            <li>Serviço de buffet</li>
+            <li>Organização e Staff</li>
+            <li>Publicidade</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col mt-5 p-3">
+       <img src="./img/pexels-rosario-fernandes-3835638.jpg" class="img-fluid shadow-lg" alt="">
+      </div>
+    </div>
+
+    <!--DIFERENCIAIS DO SISTEMA-->
+
+    <div class="row " id="diferenciais">
+      <h2 class="text-center fw-bold mt-5 p-3">Diferenciais do Sistema</h2>
+      <div class="col mt-5 p-3">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/pexels-ketut-subiyanto-4474033.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Contrato 100% digital</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/pexels-liza-summer-6347720.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Controle Financeiro Rápido e Fácil</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/pexels-mikael-blomkvist-6476800.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Agenda Interna</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/pickawood-gf8e6XvG_3E-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h5 class="card-title">Pagamento por cartão de crédito ou parcelado no boleto</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--EVENTOS-->
+
+    <div class="row mt-5 p-3 mb-5" id="evento" style="background-image: url('img/pexels-trần-long-4689716.jpg');">
+      <h2 class="text-center text-white fw-bold mt-5 p-3" >Nossas modalidades de eventos</h2>
+      <div class="col">
+        <div class="accordion shadow accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Eventos Corporativos e Branding Experience
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>Lançamento de Produto/Serviço</li>
+                  <li>Convemções Empreseriais</li>
+                  <li> Eventos VIP</li>
+                  <li>Estandes</li>
+                  <li>Ativaçoes de Marca</li>
+                  <li>Gifting and Sampling</li> 
+                  <li>Premiações</li>
+                  <li>Mailing Provide</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Eventos Técnico/Cientificos
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>Exposições Técnicas</li>
+                  <li>Congressos</li>
+                  <li>Feiras</li>
+                  <li>Conferências</li>
+                  <li>Seminário</li>
+                  <li>Workshops</li>
+                  <li>Simpósios</li>
+                  <li>Fórum</li>
+                  <li>Hands On</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Eventos Sociais
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>Casamentos</li>
+                  <li>Aniversários</li>
+                  <li>Formaturas</li>
+                  <li>Eventos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Call to action-->
+
+    <div class="row mt-5 p-3" style="background-image: url('img/pexels-trần-long-4689716.jpg');" id="call">
+      <h2 class="text-center text-white fw-bold mt-5 p-3" >Não deixe para fazer seu evento de última hora</h2>
+      <div class="col">
+        <h3 class="text-center text-white mt-5 p-3">Cadastre-se e organize agora</h3>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-light mt-5 p-3 mb-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" 
+          aria-controls="offcanvasRight">Quero iniciar meu evento</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel"> Cadastre-se</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <form>
+                <div class="input-group">
+                  <span class="input-group-text">Nome e Sobrenome</span>
+                  <input type="text" aria-label="First name" class="form-control" placeholder="Nome">
+                  <input type="text" aria-label="Last name" class="form-control"placeholder="Sobrenome">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Confirmar Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirmar Senha">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Desejo receber a newsletter 4Event</label>
+                </div>
+                <button type="submit" class="btn btn-light border shadow-lg ">Cadastrar</button>
+
+                <div class="mb-3 mt-3">
+                  <div id="emailHelp" class="form-text">ou cadastre-se usando redes sociais:</div>
+                  <div>
+                    <a href="https://pt-br.facebook.com/">  <img src="./icons/icons8-facebook-48.png" class="mt-3 p-3 shadow-lg"/></a>
+                    <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">
+                      <img src="./icons/icons8-google-logo-48.png" class="mt-3 p-3 shadow-lg"/>
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FORMULÁRIO CONTATO-->
+
+    <div class="row mt-5 p-3" id="contato">
+      <div class="col">
+        <img src="./img/pexels-andrea-piacquadio-789822.jpg" class="img-fluid shadow-lg" alt="">
+        <a href="https://www.instagram.com/"><img src="./icons/icons8-instagram-48.png" class="mt-3 shadow-lg"/></a>
+        <a href="https://pt-br.facebook.com/">  <img src="./icons/icons8-facebook-48.png" class="mt-3 shadow-lg"/></a>
+        <a href="https://br.linkedin.com/"><img src="./icons/icons8-linkedin-48.png" class="mt-3 shadow-lg"/></a>
+        <a href="https://www.whatsapp.com/business/?lang=pt_br"><img src="./icons/icons8-whatsapp-48.png" class="mt-3 shadow-lg"/></a>
+      </div>
+      <div class="col">
+        <form >
+          <h2>Entre em contato</h2>
+          <div class="mb-3">
+            <label for="Inputname1" class="form-label">Nome:</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="inputmsg1" class="form-label">Mensagem</label>
+            <textarea name="Mensagem" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-light">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+
+    <div class="row mt-5 p-3">
+      <div class="col">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2022 4Event, Inc</p>
+        <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img src="./img/4event.png" class="bi me-2 shadow-lg" width="90" height="30" alt=""  onclick="openmessage()">
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link px-2 text-muted">Sobre</a></li>
+          <li class="nav-item"><a href="#diferenciais" class="nav-link px-2 text-muted">Diferenciais</a></li>
+          <li class="nav-item"><a href="#evento" class="nav-link px-2 text-muted">Eventos</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link px-2 text-muted">Contato</a></li>
+        </ul>
+      </footer>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
+  <script src="./js/index.js"></script>   
+</body>
+</html>
